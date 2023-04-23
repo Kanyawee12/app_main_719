@@ -57,6 +57,8 @@ with tab1:
 
     #'Oldpeak'
     x10 = st.slider('Oldpeak', 0, 2, 0)
+    x10 = st.number_input('Oldpeak (rang number: 0-7)')
+    st.write('The current number is ', x10)
 
     #'ST_Slope'
     x11 = st.radio('ST_Slope', ST_Slope_encoder.classes_)
